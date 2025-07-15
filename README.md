@@ -1,3 +1,7 @@
+### Pre-requisites
+* Spin up HCP Boundary Controller here https://portal.cloud.hashicorp.com/sign-in
+* Download and Install [Boundary Installer v0.19.6](https://developer.hashicorp.com/boundary/install#installer) compatible with your base OS version
+
 ### Generate SSH keypair
 ```
 cd ec2-boundary-worker/examples/boundary-worker
