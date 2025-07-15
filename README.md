@@ -73,3 +73,6 @@ sudo systemd-analyze verify /etc/systemd/system/boundary-worker.service
 
 ### Verify Worker Registration Successfully
 * Run this command `sudo journalctl -u boundary-worker.service -l --no-pager`
+
+### Sample Architecture Diagram
+![Diagram](examples/hcpb-boundary-sample-architecture.png)
